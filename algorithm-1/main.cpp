@@ -66,7 +66,7 @@ int main(int argc, char* argv[]) {
             // ifstream decryptionFS;
             // decryptionFS.open(userInput);
 
-            // while (!encryptionFS.is_open()) {
+            // while (!decryptionFS.is_open()) {
 
             //     cerr << "Error: File not recognised. Please try again.\n"
             //     cout << "Enter path to specified file:\n"

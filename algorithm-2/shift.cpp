@@ -37,21 +37,21 @@ int main(int argc, char* argv[]) {
             cin >> userInput;
             cout << "\n";
             
-            //---- Potential code that we can use to open files. ----//
-            // ifstream encryptionFS;
-            // encryptionFS.open(userInput);
+            // Potential code that we can use to open files.
+            ifstream encryptionFS;
+            encryptionFS.open(userInput);
 
-            // while (!encryptionFS.is_open()) {
+            while (!encryptionFS.is_open()) {
 
-            //     cerr << "Error: File not recognised. Please try again.\n"
-            //     cout << "Enter path to specified file:\n"
+                cerr << "Error: File not recognised. Please try again.\n";
+                cout << "Enter path to specified file:\n";
 
-            //     cin >> userInput;
-            //     cout << "\n";
-
-            //     encryptionFS.close();
-            //     encryptionFS.open(userInput);
-            // }
+                cin >> userInput;
+                cout << "\n";
+                //TODO: Encryption code here (maybe make a new folder and create new encrypted files rather than editing existing files)
+                encryptionFS.close();
+                encryptionFS.open(userInput);
+            }
         } else {
 
             cout << "Enter path to specified file.\n";
@@ -62,21 +62,20 @@ int main(int argc, char* argv[]) {
             cin >> userInput;
             cout << "\n";
 
-            //---- Potential code that we can use to open files. ----//
-            // ifstream decryptionFS;
-            // decryptionFS.open(userInput);
+            ifstream decryptionFS;
+            decryptionFS.open(userInput);
 
-            // while (!decryptionFS.is_open()) {
+            while (!decryptionFS.is_open()) {
 
-            //     cerr << "Error: File not recognised. Please try again.\n"
-            //     cout << "Enter path to specified file:\n"
+                cerr << "Error: File not recognised. Please try again.\n";
+                cout << "Enter path to specified file:\n";
 
-            //     cin >> userInput;
-            //     cout << "\n";
-
-            //     decryptionFS.close();
-            //     decryptionFS.open(userInput);
-            // }
+                cin >> userInput;
+                cout << "\n";
+                //TODO: Decryption code here (maybe make a new folder and create new decrypted files rather than editing existing files)
+                decryptionFS.close();
+                decryptionFS.open(userInput);
+            }
         }
 
         cout << "Input \"1\" to encrypt a file. Input \"2\" to decrypt a file. Input \"3\" to quit the program.\n";

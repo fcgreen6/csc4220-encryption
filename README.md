@@ -1,9 +1,9 @@
 # csc4220-encryption
-## Description:
+### Description:
 - ...
-## How to Run:
+### How to Run:
 - ...
-## XOR Encryption:
+### XOR Encryption:
 - ...
-## Shift Encryption:
+### Shift Encryption:
 - ...

@@ -47,8 +47,9 @@ string getValidUserChoice()
     cin >> choice;
     cout << "\n";
 
-    while (choice != "1" && choice != "2" && choice != "3")
-    {
+    // Try to collect user input again if command is not recognised.
+    while ((userInput != "1") && (userInput != "2") && (userInput != "3")) {
+
         cerr << "Error: Command not recognised. Please try again.\n";
         cout << "Input \"1\" to encrypt a file. Input \"2\" to decrypt a file. Input \"3\" to quit the program.\n";
         cin >> choice;

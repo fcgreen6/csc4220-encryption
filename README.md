@@ -12,4 +12,4 @@
     - Enter **"1"** to encrypt a file. Enter **"2"** to decrypt a file. Enter **"3"** to quit the program.
   - Step Two:
     - Enter the Linux file path or relative path to the file you want to encrypt/decrypt.
-    - After you specify a valid file, the result will be sored in a relative directory. Example: ./encrypted or ./decrypted.
+    - After you specify a valid file, the result will be sored in a relative directory.

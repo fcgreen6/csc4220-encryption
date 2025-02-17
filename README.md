@@ -14,3 +14,4 @@
   - Step Two:
     - Enter the Linux file path or relative path to the file you want to encrypt/decrypt.
     - After you specify a valid file, the result will be sored in a relative directory.
+    - Encrypted filex are stored with the **.enc** extension and decrypted files are stored with the **.dec** extension.

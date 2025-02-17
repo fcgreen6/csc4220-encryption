@@ -7,7 +7,7 @@
 - Install WSL.
 - Compile the cpp file in each repository.
 - Run the executable files.
-- - Each file uses the same menu.
+  - Each file uses the same menu.
   - Step One:
     - Enter **"1"** to encrypt a file. Enter **"2"** to decrypt a file. Enter **"3"** to quit the program.
   - Step Two:

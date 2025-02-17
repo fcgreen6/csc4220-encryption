@@ -4,7 +4,7 @@
 - **XOR encryption** applies the **exclusive or** operator to the bits of each character in a file. By the same process, encrypted files can be decrypted.
 - **Shift encryption** shifts the ascii value of each character in a file by an integer value. By the same process, encrypted files can be decrypted.
 ### How to Run:
-- Install WSL and a cpp compiler such as MinGW.
+- Install WSL (or just have Linux OS) and a cpp compiler such as MinGW.
 - Clone the repo and navigate to the program directory.
 - Compile the cpp file in each sub-directory.
 - Run the executable files.
